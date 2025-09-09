@@ -15,7 +15,7 @@ namespace Tyuiu.PautovaMO.Sprint0.Task2.V0.Test
         {
             var name = "Мария";
             var res = DataService.GetMessage(name);
-            Assert.AreEqual("Привет..., Мария", res);
+            Assert.AreEqual("Привет, Мария", res);
 
         }
     }
